@@ -1,0 +1,24 @@
+{
+    "app": {
+        "port": "3000",
+        "url": "http://localhost:3000",
+        "dir": "${APP_DIR}"
+    },
+    "express": {
+        "trustProxy": false
+    },
+    "session": {
+        "name": "myapp.sid",
+        "store": {
+            "db": "sessions.db",
+            "dir": "${APP_DIR}/data"
+        },
+        "cookie": {
+            "httpOnly": false,
+            "maxAge": 43200000,
+            "secure": false
+        },
+        "resave": false,
+        "saveUninitialized": false
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "pigura",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosinix/pigura.git"
+  },
+  "keywords": [
+    "config",
+    "inherit",
+    "inheritance",
+    "parent",
+    "child",
+    "hierarchy"
+  ],
+  "author": "Nico Amarilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kosinix/pigura/issues"
+  },
+  "homepage": "https://github.com/kosinix/pigura#readme",
+  "dependencies": {
+    "lodash.merge": "^4.6.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "lodash.get": "^4.4.2",
+    "mocha": "^6.2.0"
+  }
+}

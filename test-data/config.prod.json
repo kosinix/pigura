@@ -1,0 +1,11 @@
+{
+    "express": {
+        "trustProxy": true
+    },
+    "session": {
+        "cookie": {
+            "httpOnly": true,
+            "secure": true
+        }
+    }
+}
