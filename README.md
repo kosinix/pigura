@@ -120,4 +120,10 @@ Or:
 
 ## Test
 
+Install mocha globally
+
+    npm install mocha -g
+
+Run test
+
     npm test
